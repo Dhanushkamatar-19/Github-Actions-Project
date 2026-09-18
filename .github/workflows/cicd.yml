@@ -62,7 +62,7 @@ jobs:
   Build_project_and_scan:
 
     runs-on: self-hosted
-    needs: Security
+    needs: Test
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 17
