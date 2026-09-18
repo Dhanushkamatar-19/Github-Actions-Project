@@ -122,7 +122,7 @@ jobs:
          uses: docker/build-push-action@v7
          with:
             push: true
-            tags: user/bankapp:latest
+            tags: dhanushkamatar/bankapp:latest
        
 
     
